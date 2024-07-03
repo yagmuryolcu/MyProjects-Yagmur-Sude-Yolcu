@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffe4e1"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toTopOf="@id/textview_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="1230dp"
+            android:layout_height="141dp"
+            android:layout_marginTop="16dp"
+            android:text="Yummy In the Tummy, this restaurant eschews an overly ornate decor in favour of a simpler, more contemporary and elegant style which is enhanced by striking works of art .
+         This understated style is echoed in the cuisine, where grandiose gestures are replaced by a balanced approach which pays careful attention to every detail.The menu has a broad reach, including specialities from Modena and Emilia (ingredients such as Parmesan cheese, balsamic vinegar and tagliatelle and tortellini pasta), as well as classic international dishes, which the chef reinterprets with a light and playful touch, reminding us that food should not be a boring ritual but instead an enjoyable experience influenced by memory and culture.The impressive wine list will includes lesser-known labels from small-scale producers with interesting stories, as well as top-quality options from established wineries.
+The meals which we serve to vulnerable people in our refectories are prepared using excess food collected from local markets and supermarkets. Our aim is to demonstrate that this approach is highly effective in improving conditions for people and food ecosystems alike."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_first" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

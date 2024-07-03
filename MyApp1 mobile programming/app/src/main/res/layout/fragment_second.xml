@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe4e1"
+    tools:context=".SecondFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toTopOf="@id/textview_second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="1157dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="16dp"
+            android:text="Cooking plant-based has been meaningful and expansive. We made the commitment to use our creativity toward a plant-based future because that’s where our food system needs to go. There’s no question that this way of eating is better for the planet, and it doesn't mean sacrificing deliciousness.
+
+We launched Eleven Madison Home in 2022 with a mission to change the way the world thinks about plant-based food. Building on Yummy In the Tummy’s legacy of excellence and innovation, we offer pantry staples that will transform your cooking, flavorful and nutritious snacks, and handmade homewares that are designed to elevate the entertaining experience.I hope that this collection makes your plant-based cooking as effortless and delicious as possible and that it inspires you to get curious and explore plant-based ingredients and recipes that you've never tried before.As part of our plant-based vision, we knew we needed to build a stronger connection to the produce that we were using. In 2021, we partnered with Maciek Kobielski of Magic Farms to grow fruits and vegetables exclusively for Eleven Madison Park. This relationship has created a dialogue between chef and farmer that has inspired many dishes in the restaurant and products for Yummy In The Tummy.Since the early years, we have added many layers to what we do; we have teams dedicated only to innovation, another team is specialized in fermentation, we have fulltime foragers, gardeners, and researchers. We’ve traveled the world in search of inspiration, technique, friendship, and new ingredients. Over the years we’ve grown our staff from a mere twelve, to now more than one hundred.
+
+Pursuit of knowledge, devout creativity, relentless teamwork, and surprising our guests are essential to who we are."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_second" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

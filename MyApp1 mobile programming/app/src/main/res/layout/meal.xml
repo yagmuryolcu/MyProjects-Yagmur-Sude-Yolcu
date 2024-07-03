@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F6A99F"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/meal_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:text="Meal Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/meal_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Meal Price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Add to Cart"
+        android:textSize="20dp"
+
+
+
+
+        />
+</LinearLayout>
+

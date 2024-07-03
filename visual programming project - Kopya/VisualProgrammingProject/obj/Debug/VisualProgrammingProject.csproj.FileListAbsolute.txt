@@ -1,0 +1,40 @@
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.AssemblyReference.cache
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.LoginForm.resources
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.RegistrationForm.resources
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.MainForm.resources
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.Properties.Resources.resources
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.GenerateResource.cache
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.CoreCompileInputs.cache
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\VisualProgrammingProject.exe.config
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\VisualProgrammingProject.exe
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\VisualProgrammingProject.pdb
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.exe
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.pdb
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\MySqlConnector.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Buffers.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Memory.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\MySqlConnector.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Buffers.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Memory.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualPr.D1B434B7.Up2Date
+C:\Users\VİCTUS\Source\Repos\project\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.AdminForm.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.AssemblyReference.cache
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.AdminForm.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.LoginForm.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.RegistrationForm.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.MainForm.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.Properties.Resources.resources
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.GenerateResource.cache
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.csproj.CoreCompileInputs.cache
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.exe
+C:\Users\VİCTUS\Source\Repos\project - Kopya\VisualProgrammingProject\obj\Debug\VisualProgrammingProject.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "B6y62bwpZk2qUvH1k5U9zkTcY5ng7YLo+k3kbF7xARnUzEyG0MMGFpvbHtJxuZ6e9uOGy4xILdSdv4hk1CwMuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VİCTUS\\Source\\Repos\\project\\project\\project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VİCTUS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\VİCTUS\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
+    "C:\\Users\\VİCTUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\VİCTUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

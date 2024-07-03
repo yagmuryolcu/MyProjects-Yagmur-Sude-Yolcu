@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MovieDetail">
+  <grid id="27dc6" binding="MovieD" layout-manager="GridLayoutManager" row-count="17" column-count="22" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="955" height="560"/>
+    </constraints>
+    <properties>
+      <background color="-865024"/>
+      <font name="Tahoma" size="22" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="9aa70">
+        <constraints>
+          <grid row="4" column="20" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="dfeab">
+        <constraints>
+          <grid row="15" column="13" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5bf17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Mistral" size="48" style="1"/>
+          <text value="MOVIE DETAILS"/>
+        </properties>
+      </component>
+      <component id="354cc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="28-05-2023   11AM / 12AM / 2 PM / 5 PM"/>
+        </properties>
+      </component>
+      <component id="26840" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="28-05-2023  8 PM/ 10PM / 11 PM"/>
+        </properties>
+      </component>
+      <component id="52b67" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="29-05-2023 6 PM/ 7PM / 9 PM"/>
+        </properties>
+      </component>
+      <component id="d926f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="28-05-2023 1 PM/ 3PM /5 PM / 7 PM"/>
+        </properties>
+      </component>
+      <component id="99f9f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="film-slate.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7f940" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="watching-a-movie.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="398b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="20" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1917244"/>
+          <font name="Tahoma" size="22" style="1"/>
+          <text value="Select Date-Time"/>
+        </properties>
+      </component>
+      <component id="5bb39" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="BERGEN"/>
+        </properties>
+      </component>
+      <component id="485b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="THE BATMAN"/>
+        </properties>
+      </component>
+      <component id="8ce9c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="VENDETTA"/>
+        </properties>
+      </component>
+      <component id="7178d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="GYOSEOB"/>
+        </properties>
+      </component>
+      <component id="b0f25" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="20 MINUTES"/>
+        </properties>
+      </component>
+      <component id="2a77f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="DER FUCHS"/>
+        </properties>
+      </component>
+      <component id="71c4a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="WRONGFUL DEATH"/>
+        </properties>
+      </component>
+      <component id="3eeb9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="30-05-2023 09 AM/ 10 AM / 2 PM / 4 PM"/>
+        </properties>
+      </component>
+      <component id="6b9b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="JOHN WICK 4"/>
+        </properties>
+      </component>
+      <component id="81534" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="30-05-2023 5PM/ 6PM / 7 PM"/>
+        </properties>
+      </component>
+      <component id="8c17a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="29-05-2023 9AM / 10 AM / 11 AM"/>
+        </properties>
+      </component>
+      <component id="81a6b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="29-05-2023 9 PM/ 11PM"/>
+        </properties>
+      </component>
+      <component id="a9b63" class="javax.swing.JTextField" binding="tfMovies">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1908265"/>
+        </properties>
+      </component>
+      <component id="f793f" class="javax.swing.JTextField" binding="tfTimeDate">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1908265"/>
+        </properties>
+      </component>
+      <component id="3a937" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1917244"/>
+          <font name="Tahoma" size="22" style="1"/>
+          <text value="Number Of Tickets"/>
+        </properties>
+      </component>
+      <component id="29e21" class="javax.swing.JButton" binding="CONTINUEButton" default-binding="true">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16711438"/>
+          <text value="CONTINUE"/>
+        </properties>
+      </component>
+      <component id="9ad98" class="javax.swing.JTextField" binding="tfNumbOfTickets">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1908265"/>
+        </properties>
+      </component>
+      <vspacer id="119ea">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ea71c">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="883eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1917244"/>
+          <font name="Tahoma" size="22" style="1"/>
+          <text value="Movies"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

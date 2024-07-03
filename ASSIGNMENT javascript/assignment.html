@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Working with Form Elements</title>
+  <style>
+    body {
+      background-color: rgb(220, 233, 245);
+      transition: background-color 0.5s ease;
+    }
+    .textbox {
+      width: 350px;
+      height: 25px;
+      background-color: rgb(174, 174, 174);
+      margin-bottom: 5px;
+      margin-top: 5px;  
+      border-radius: 15px;
+      padding: 8px;
+   
+    }
+    .checkbox {
+      width: 30px;
+      height: 10px;
+      background-color: rgb(174, 174, 174);
+      margin-bottom: 25px;
+      margin-top: 15px; 
+    }
+  
+     
+    h1 {
+      font-size: 30px;
+      color:darkblue;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    h2 {
+      font-size: 24px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    h3 {
+      font-size: 30px;
+      color:darkblue;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    h4 {
+      font-size: 24px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    h1,h3 {
+      font-style: italic;
+      margin-top: 15px; 
+      margin-bottom: 25px;
+    }
+    label {
+      display: inline-block;
+      align-items: center;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 8px;
+      border: 2px solid #ccc;
+      border-radius: 20px; /* Yuvarlak köşeler için */
+      width: 200px;
+      background: none;
+    }
+    select::after {
+      content: "\25CF"; /* Siyah nokta karakteri */
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-left: 8px;
+      font-size: 12px;
+      line-height: 1;
+      text-align: center;
+      color: #000;
+      border-radius: 50%; /* Yuvarlak simge için */
+      background-color: #ccc;
+      border-radius: 50%;
+    }
+    .my-button {
+      background-color:rgb(174, 174, 174);
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-bottom: 10px;
+    
+    }
+    
+    .my-button:hover {
+      background-color: #333; }
+
+
+
+      .custom-radio {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.custom-radio:last-child {
+  margin-right: 0;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio .checkmark {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.custom-radio input[type="radio"]:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.custom-radio label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+    select[name="color"] {
+      margin-top: 25px; 
+    }
+    select[name="jquery-color"] {
+      margin-top: 25px; 
+    }
+    #color-text1, #color-text2, #color-text3 {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    #jquery-color-text1, #jquery-color-text2,#jquery-color-text3 {
+      text-decoration:underline;
+      cursor:pointer;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h1>Working with form elements using addEventListener</h1>
+  <form id="js-form">
+    <h2>JavaScript Form Elements</h2>
+    <label class="custom-radio">
+      <input type="radio" name="color" value="#ff8000"> Orange
+      <span class="checkmark"></span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="color" value="#800080">Purple
+      <span class="checkmark"></span>  
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="color" value="#008080">  Teal
+      <span class="checkmark"></span>
+  
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="color" value="#F5F5DC"> Beige
+      <span class="checkmark"></span>
+     
+     
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="color" value="#E0FFFF">   LightCyan
+      <span class="checkmark"></span>
+   
+    </label>
+    <br>
+    <label>
+      <select name="color">
+        <option value="" selected disabled hidden>---Choose color---</option>
+        <option value="#ffff00">Yellow</option>
+        <option value="#ff00ff">Magenta</option>
+        <option value="#00ffff">Cyan</option>
+        <option value="#FAEBD7">AntiqueWhite</option>
+        <option value="#808000">Olive</option>
+      </select>
+    </label>
+    <br>
+    <p><b>"Input a color name"</b></p>
+    <label>
+      <input type="text" name="color" placeholder="Input a color name" class="textbox">
+    </label>
+    <br>
+    <p><b>"Input a hexadecimal value"</b></p>
+    <label>
+      <input type="text" name="color" placeholder="Input a hexadecimal value" class="textbox">
+    </label>
+    <br>
+    <p><b>"Input an RGB value"</b></p>
+    <label>
+      <input type="text" name="color" placeholder="Input an RGB value" class="textbox">
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="color" value="#FFA07A" class="checkbox"> LightSalmon
+    </label>
+    <label>
+      <input type="checkbox" name="color" value="#87CEFA" class="checkbox"> LightSkyBlue
+    </label>
+    <label>
+      <input type="checkbox" name="color" value="#DDA0DD" class="checkbox"> Plum
+    </label>
+    <br>
+  <div>
+    <input type="button" value="Color 1" data-color= "#FF4500"class="my-button">
+    <input type="button" value="Color 2" data-color="#FFDAB9" class="my-button">
+    <input type="button" value="Color 3" data-color= "#8B0000"class="my-button">
+  </div>
+  <br>
+  <div>
+    <a href="#" onclick="changeColor('#6495ED'); event.preventDefault();">Color 4 Background</a>
+    <br>
+    <a href="#" onclick="changeColor('#228B22'); event.preventDefault();">Color 5 Background</a>
+    <br>
+    <a href="#" onclick="changeColor('#663399'); event.preventDefault();">Color 6 Background</a>
+    <br>
+</div>
+  </form>
+  <h3>Working with form elements using jQuery</h3>
+  <form id="jquery-form">
+    <h4>jQuery Form Elements</h4>
+   
+
+    <label class="custom-radio">
+      <input type="radio" name="jquery-color" value="#B22222"> Firebrick
+      <span class="checkmark"></span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="jquery-color" value="#DB7093"> Pale Violet Red
+      <span class="checkmark"></span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="jquery-color" value="#9ACD32"> Yellow Green
+      <span class="checkmark"></span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="jquery-color" value="#696969"> DimGrey
+      <span class="checkmark"></span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="jquery-color" value="#000000"> Black
+      <span class="checkmark"></span>
+    </label>
+    <br>
+
+
+
+    <label>
+      <select name="jquery-color">
+        <option value="" selected disabled hidden>---Choose color---</option>
+        <option value="#F4A460">SandyBrown</option>
+        <option value="#7FFFD4">AquaMarine</option>
+        <option value="#DAA520">Goldernrod</option>
+        <option value="#D2691E">Chocolate</option>
+        <option value="#C71585">MediumVioletRed</option>
+      </select>
+    </label>
+    <br>
+    <p><b>"Input a color name"</b></p>
+    <label>
+      <input type="text" name="jquery-color" placeholder="Input a color name" class="textbox">
+    </label>
+    <br>
+    <p><b>"Input a hexadecimal value"</b></p>
+    <label>
+      <input type="text" name="jquery-color" placeholder="Input a hexadecimal value" class="textbox">
+    </label>
+    <br>
+    <p><b>"Input an RGB value"</b></p>
+    <label>
+      <input type="text" name="jquery-color" placeholder="Input an RGB value" class="textbox">
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="jquery-color" value="#7FFF00" class="checkbox"> Chartreuse
+    </label>
+    <label>
+      <input type="checkbox" name="jquery-color" value="#5F9EA0" class="checkbox"> CadetBlue
+    </label>
+    <label>
+      <input type="checkbox" name="jquery-color" value="#6B8E23" class="checkbox"> OliveDrab
+    </label>
+    <br>
+    <div>
+    <input type="button" value="Color 1" data-color="#708090" class="my-button">
+    <input type="button" value="Color 2" data-color="#4B0082" class="my-button">
+    <input type="button" value="Color 3" data-color="#F0E68C" class="my-button">
+  </div>
+<br>
+  
+
+<div>
+  <a href="#" onclick="changeColor('#FFFACD'); event.preventDefault();">Color 4 Background</a>
+  <br>
+  <a href="#" onclick="changeColor('#00FA9A'); event.preventDefault();">Color 5 Background</a>
+  <br>
+  <a href="#" onclick="changeColor('#FFDEAD'); event.preventDefault();">Color 6 Background</a>
+  <br>
+</div>
+
+  <br>
+  <script>
+    // JavaScript with addEventListener()
+    document.addEventListener('DOMContentLoaded', function() {
+      const jsForm = document.getElementById('js-form');
+      const jsColorInputs = jsForm.querySelectorAll('input[name="color"], select[name="color"], div');
+      const jsButtons = jsForm.querySelectorAll('input[type="button"]');
+
+      jsColorInputs.forEach(input => {
+        input.addEventListener('change', function() {
+          const color = this.value || this.innerText;
+          document.body.style.backgroundColor = color;
+        });
+      });
+
+      jsButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const color = this.getAttribute('data-color');
+          document.body.style.backgroundColor = color;
+        });
+      });
+    });
+
+    // jQuery
+    $(document).ready(function() {
+      const jqueryForm = $('#jquery-form');
+      const jqueryColorInputs = jqueryForm.find('input[name="jquery-color"], select[name="jquery-color"], div');
+      const jqueryButtons = jqueryForm.find('input[type="button"]');
+
+      jqueryColorInputs.on('change', function() {
+        const color = $(this).val() || $(this).text();
+        $('body').css('background-color', color);
+      });
+
+      jqueryButtons.on('click', function() {
+        const color = $(this).attr('data-color');
+        $('body').css('background-color', color);
+      });
+    });
+
+    function changeColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>
